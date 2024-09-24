@@ -1,0 +1,17 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50  # Frecuencia de actualización en Hz
+
+    joint_trajectory_controller:
+      type: "joint_trajectory_controller/JointTrajectoryController"
+      joints:
+        - joint_right_rear_wheel
+        - joint_left_rear_wheel
+        - joint_right_wheel_front
+        - joint_right_wheel_assembly
+        - joint_left_wheel_front
+        - joint_left_wheel_assembly
+      constraints:
+        goal_time: 0.5
+        stopped_velocity_tolerance: 0.01
+
