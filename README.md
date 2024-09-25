@@ -1,6 +1,6 @@
 # Aprendiendo como simular con pybullet integrando ros2 humble 
 
-primero que todo debes instalar las librerias necesarias
+• primero que todo debes instalar las librerias necesarias
 
 pip install pybullet
 
