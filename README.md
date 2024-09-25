@@ -1,5 +1,10 @@
 # Aprendiendo como simular con pybullet integrando ros2 humble 
 
+primero que todo debes instalar las librerias necesarias
+
+pip install pybullet
+pip install numpy
+
 # En una terminal ejecutar
 
 cd my_ws
