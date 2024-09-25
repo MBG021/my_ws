@@ -3,6 +3,7 @@
 primero que todo debes instalar las librerias necesarias
 
 pip install pybullet
+
 pip install numpy
 
 # En una terminal ejecutar
